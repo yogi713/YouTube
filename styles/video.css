@@ -4,23 +4,29 @@
   row-gap:40px;
   column-gap: 10px;  
 }
- @media(max-width:720px){
+@media (min-width:500px){
+  .video-grid{
+    grid-template-columns:1fr;
+  }
+}
+ @media(min-width:625px){
   .video-grid{
     grid-template-columns:1fr 1fr;
   }
 }
-@media(min-width:721px) and (max-width:1022px){
+@media(min-width:800px){
   .video-grid{
     grid-template-columns:1fr 1fr 1fr;
   }
 }
-@media(min-width:1125px) and (max-width:1370px){
+@media(min-width:1125px){
   .video-grid{
     grid-template-columns:1fr 1fr 1fr 1fr;
   } 
 }  
 .video-preview{
-  width:295px;
+  flex:1; 
+  /* changed width to flex */
 }
 .thumbnail{
   width:100%;
