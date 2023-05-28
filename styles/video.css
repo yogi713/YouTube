@@ -43,6 +43,7 @@
   border-radius:30px;
 }
 .video-title{
+  color:white;
   font-size:14px;
   font-weight:500;
   width:100%;
@@ -51,7 +52,7 @@
 }
 .video-author , .video-stats{
   font-size:13px;
-  color:rgb(84, 84, 84);
+  color:rgb(193, 193, 193);
   margin-bottom:5px;
 }
 .video-time{
