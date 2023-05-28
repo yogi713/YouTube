@@ -9,6 +9,7 @@
   right:0px;
   background-color:rgb(0, 0, 0);
   z-index:100;
+  overflow: scroll;
 }
 .middle-section img , .right-section .logo{
   filter: invert(100%);
@@ -17,12 +18,12 @@
   display:flex;
   align-items: center;
 }
-.hamburger-menu{
+/* .hamburger-menu{
   height:25px;
   margin-left:28px;
   margin-right:24px;
   cursor: pointer;
- }
+ } */
  .youtube-logo{
   width:120px;
   padding-left: 4px;
@@ -32,7 +33,7 @@
 .middle-section{
   flex:1;
   /* margin-left: 0px; */
-  max-width: 440px;
+  max-width: 640px;
   display: flex;
   align-items: center;
 }
