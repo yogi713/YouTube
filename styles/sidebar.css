@@ -4,9 +4,11 @@
   top:60px;
   bottom:0px;
   left:0px;
-  width:80px;
+  width:95px;
   z-index: 200;
   padding-top:5px;
+  overflow:scroll;
+  white-space: nowrap;
 }
 .sidebar img{
   filter: invert(100%);
