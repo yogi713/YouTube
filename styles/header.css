@@ -9,7 +9,6 @@
   right:0px;
   background-color:rgb(0, 0, 0);
   z-index:100;
-  overflow: scroll;
 }
 .middle-section img , .right-section .logo{
   filter: invert(100%);
@@ -18,22 +17,23 @@
   display:flex;
   align-items: center;
 }
-/* .hamburger-menu{
+.hamburger-menu{
   height:25px;
-  margin-left:28px;
+  margin-left:35px;
   margin-right:24px;
   cursor: pointer;
- } */
+ }
  .youtube-logo{
   width:120px;
-  padding-left: 4px;
+  padding-left: 10px;
   margin-left: -20px;
+  cursor: pointer;
  }
  /* MIDDLE */
 .middle-section{
   flex:1;
   /* margin-left: 0px; */
-  max-width: 640px;
+  max-width: 440px;
   display: flex;
   align-items: center;
 }
@@ -47,8 +47,8 @@
   font-size: 15px;
   flex:1;
   width:0;
-  border-top-left-radius: 18px;
-  border-bottom-left-radius: 18px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
 }
 .search-bar::placeholder{
   font-family:Roboto, Arial;
@@ -78,7 +78,7 @@
   background-color: rgb(68, 68, 68);
 }
 .search-button , 
-/* .voice-search-button, */
+.voice-search-button,
 .upload-icon-container,
 .youtube-apps-container,
 .notifications-icon-container{
@@ -88,7 +88,7 @@
   justify-content: center;
 }
 .search-button .tooltip , 
-/* .voice-search-button .tooltip , */
+.voice-search-button .tooltip ,
 .upload-icon-container .tooltip,
 .youtube-apps-container .tooltip,
 .notifications-icon-container .tooltip{
@@ -105,7 +105,7 @@
   white-space: nowrap;
 }
 .search-button:hover .tooltip ,
-/* .voice-search-button:hover .tooltip , */
+.voice-search-button:hover .tooltip ,
 .upload-icon-container:hover .tooltip,
 .youtube-apps-container:hover .tooltip,
 .notifications-icon-container:hover .tooltip{
@@ -115,16 +115,17 @@
   height:25px;
   width:30px;
 }
-/* .voice-search-button{
+.voice-search-button{
   height:40px;
   width :40px;
   border:none;
   border-radius:20px;
   background-color: rgb(31, 31, 31);
+  cursor: pointer;
 }
 .voice-icon{
   width:25px;
-} */
+}
 /* RIGHT */
 .right-section{
   width:180px;
@@ -134,6 +135,9 @@
   align-items:center;
   justify-content: space-evenly;
   flex-shrink:1;
+}
+.right-section img{
+  cursor: pointer;
 }
 .upload-logo , .youtube-apps-logo,
  .notifications-logo{
@@ -151,7 +155,7 @@
   color:white;
   font-family:Roboto , Arial;
   font-size:12px;
-  padding:1px 2px 1px 2px;
+  padding:1px 3px;
   border-radius:100px;
 }
 .profile-logo{

@@ -7,7 +7,6 @@
   width:95px;
   z-index: 200;
   padding-top:5px;
-  overflow:scroll;
   white-space: nowrap;
 }
 .sidebar img{
